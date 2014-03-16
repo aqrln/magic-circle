@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #f8f8f8;
+	font-family: 'PT Sans';
+	font-size: 16px;
+}
+
+#content {
+	width: 800px;
+	margin: 0px auto;
+}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-top: 0px;
+	font-weight: lighter;
+	font-size: 36px;
+	margin-bottom: 70px;
+}
+
+h1, h2 {
+	font-family: 'PT Sans Narrow';
+	text-align: center;
+}
+
+#help {
+	text-align: justify;
+}
+
+table {
+	border-right: 2px solid #eeeeee;
+	border-top: 2px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-spacing: 0px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+td {
+	height: 2em;
+	vertical-align: middle;
+	border-left: 1px solid #eeeeee;
+}
+
+.table-entry-left {
+	float: left;
+	background-color: #fafafa;
+}
+
+.table-entry-right {
+	float: right;
+	background-color: #fefefe;
+}
+
+.table-entry-left, .table-entry-right {
+	text-align: center;
+	height: 100%;
+	width: 50%;
+}
+
+#circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background-color: black;
+	text-align: center;
+	line-height: 300px;
+	color: white;
+	font-size: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+	left: 400px;
+	margin-left: -150px;
+}
+
+#again {
+	width: 200px;
+	height: 32px;
+	position: relative;
+	left: 300px;
+	background-color: #cadbca;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
