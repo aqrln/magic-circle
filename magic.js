@@ -60,7 +60,7 @@ window.onload = function () {
 	// Set up the onClick callback for the circle
 	var circle = document.getElementById('circle');
 	circle.onclick = function () {
-		circle.innerText = chosenSymbol;
+		circle.innerHTML = chosenSymbol;
 	}
 
 	// Set up the do-it-again button
