@@ -94,3 +94,9 @@ td {
 	line-height: 32px;
 	cursor: pointer;
 }
+
+#flash {
+	position: relative;
+	width: 100%;
+	height: 10px;
+}
