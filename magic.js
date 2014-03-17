@@ -67,7 +67,7 @@ window.onload = function () {
 	document.getElementById('again').onclick = function () {
 		var div = document.getElementById('number-table');
 		div.removeChild(div.firstChild);
-		circle.innerText = '';
+		circle.innerHTML = '';
 		window.onload();
 	}
 }
