@@ -7,7 +7,6 @@ window.onload = function () {
 			}
 		}
 
-		console.log(window.magicLang);
 		var symbolsForLanguages = {
 			'en': [
 				['a', 'z'],
@@ -16,6 +15,16 @@ window.onload = function () {
 			'ru': [
 				['а', 'я'],
 				['А', 'Я']
+			],
+			'ua': [
+				['а', 'е'],
+				['ж', 'щ'],
+				['ь', 'я'],
+				['А', 'Е'],
+				['Ж', 'Щ'],
+				['Ь', 'Я'],
+				['і', 'і'],
+				['ї', 'ї']
 			]
 		};
 
@@ -92,4 +101,6 @@ window.onload = function () {
 		circle.innerHTML = '';
 		window.onload();
 	}
+
+	share42();
 }
