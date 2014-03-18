@@ -6,8 +6,30 @@ window.onload = function () {
 				allowedSymbols.push(String.fromCharCode(i));
 			}
 		}
-		populateList('a', 'z');
-		populateList('A', 'Z');
+
+		console.log(window.magicLang);
+		var symbolsForLanguages = {
+			'en': [
+				['a', 'z'],
+				['A', 'Z']
+			],
+			'ru': [
+				['а', 'я'],
+				['А', 'Я']
+			]
+		};
+
+		var lang = window.magicLang;
+		if (lang === undefined) {
+			var lang = 'en';
+		}
+		if (!(lang in symbolsForLanguages)) {
+			lang = 'en';
+		}
+
+		symbolsForLanguages[lang].forEach(function (range) {
+			populateList(range[0], range[1]);
+		});
 
 		function getRandomFromList(list) {
 			var index = Math.floor(Math.random() * list.length);
