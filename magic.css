@@ -93,6 +93,12 @@ td {
 	text-align: center;
 	line-height: 32px;
 	cursor: pointer;
+	transition: 1s;
+}
+
+#again:hover {
+	background-color: #daebda;
+	transition: 1s;
 }
 
 #flash {
