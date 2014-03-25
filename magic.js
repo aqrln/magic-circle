@@ -30,7 +30,7 @@ window.onload = function () {
 
 		var lang = window.magicLang;
 		if (lang === undefined) {
-			var lang = 'en';
+			lang = 'en';
 		}
 		if (!(lang in symbolsForLanguages)) {
 			lang = 'en';
