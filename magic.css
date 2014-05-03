@@ -89,12 +89,18 @@ td {
 	text-align: center;
 	line-height: 32px;
 	cursor: pointer;
-	transition: 1s;
+	-webkit-transition: 1s;
+       -moz-transition: 1s;
+         -o-transition: 1s;
+            transition: 1s;
 }
 
 #again:hover {
 	background-color: #daebda;
-	transition: 1s;
+	-webkit-transition: 1s;
+       -moz-transition: 1s;
+         -o-transition: 1s;
+            transition: 1s;
 }
 
 #flash {
@@ -122,12 +128,18 @@ td {
 a {
 	text-decoration: none;
 	color: #335;
-	transition: 2s;
+	-webkit-transition: 2s;
+       -moz-transition: 2s;
+         -o-transition: 2s;
+            transition: 2s;
 }
 
 a:hover {
-	transition: 0.5s;
 	color: #77a;
+	-webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
 }
 
 hr {
